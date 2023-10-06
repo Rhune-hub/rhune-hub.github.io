@@ -1,0 +1,50 @@
+<head> 
+    <meta charset="utf-8"> 
+    <title>Шрифты в CSS3</title> 
+    
+    <style> 
+    @font-face { 
+    font-family: 'Roboto'; 
+    src: url(fonts/Roboto-Regular.ttf); 
+
+    } 
+a {
+    display: block;
+}
+    p{ 
+    color: rgb(37, 4, 4); 
+    } 
+    ::selection {
+        color: red;
+        background-color: antiquewhite;
+    }
+    a:link {color:green; text-decoration:none;}
+    a:hover {color:blue; text-decoration:underline;}
+    a:active {color:yellow; text-decoration:underline;}
+    a:visited {color:red; text-decoration:overline;}
+ input:checked+span {background-color: red;}
+ input:invalid {background-color: red;}
+ input:valid {background-color: white;}
+    </style> 
+    </head> 
+    <body> 
+        <form action="">
+
+            <input type="email"  style="background-color: aqua;" required >
+            <input type="submit" >
+        </form>
+<input type="radio" name="name" checked><span>яблоко</span><br>
+<input type="radio" name="name" id=""><span>персик</span><br>
+<input type="radio" name="name" id=""><span>апельсин</span><br>
+ <a href="">
+    ссылка
+   </a> 
+
+   <a href="#">
+    ссылка
+   </a>
+
+<a href="#2">
+    ссылка
+   </a>
+    </body>
